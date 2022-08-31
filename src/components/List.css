@@ -1,0 +1,52 @@
+/* headline / first letter */
+h1::first-letter {
+    color: red;
+    font-size: 2em;
+}
+
+/* headline / hover on first letter */
+h1:hover::first-letter {
+    color: blue
+}
+
+ul {
+    list-style: none;
+}
+
+/* list element 1 */
+
+li:nth-of-type(1) {
+    text-decoration: line-through;
+}
+
+/* list element 2 */
+
+li:nth-of-type(2) {
+    text-decoration: line-through;
+}
+
+/* list element 3 */
+
+li:nth-of-type(3) {
+    background-color: lightblue;
+}
+
+/* list element 4 */
+
+li:nth-of-type(4) {
+    background-color: lightblue;
+}
+
+
+/* list element 5 */
+
+li:nth-of-type(5) {
+    text-decoration: underline;
+}
+
+
+/* list element 6 */
+
+li:nth-of-type(6) {
+    text-decoration: underline;
+}
